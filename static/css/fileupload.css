@@ -1,0 +1,58 @@
+/* 上传表格样式 */
+table.uploadFiles{
+	border:1px solid #ccc;
+	text-align:center;
+	color:#777777;
+	margin:5px;
+	width:100%;
+	border-collapse:rtl;
+	border-spacing:0px;
+	box-shadow: 0px 0px 5px #888888
+}
+table.uploadFiles thead th{
+	border:1px solid white;
+	background-color:#eee;
+	padding:3px 5px;
+}
+table.uploadFiles tbody td{
+	border:1px dashed #eee;
+	padding:2px 5px;
+	background-color:transparent;
+}
+
+table.uploadFiles tbody tr:hover{
+	background-color:#FEEEE7;
+}
+table.uploadFiles a.delbtn{
+	display:inline-block;
+	padding:2px 5px;
+	font-size:0.8em;
+	
+	background-color:#B14C5A;
+	color:white;
+	border:1px solid white;
+	border-radius:3px;
+	cursor:pointer;
+	box-shadow: 0px 0px 5px #888888
+}
+table.uploadFiles a.delbtn:hover{
+	font-weight:600;
+	background-color:#F15866;
+}
+table.uploadFiles a.downloadbtn{
+	display:inline-block;
+	padding:2px 5px;
+	font-size:0.8em;
+	
+	background-color: #2C7833;
+	color:white;
+	border:1px solid white;
+	border-radius:3px;
+	cursor:pointer;
+	box-shadow: 0px 0px 5px #888888
+}
+table.uploadFiles a.downloadbtn:hover{
+	font-weight:600;
+	background-color: #42B13F;
+}
+/* 上传表格样式 end */
